@@ -266,6 +266,6 @@ const Menu = styled.ul`
   border: 3px solid rgba(255, 145, 246, 0.69);
 
   @media (max-width: 600px) {
-    width: 300px;
+    width: 280px;
   }
 `;

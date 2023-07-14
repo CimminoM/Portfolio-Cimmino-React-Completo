@@ -57,6 +57,9 @@ h2 {
 #Slider {
   box-shadow: 0px 39px 15px 5px rgba(0, 0, 0, 0.1);
 
+  @media (max-width: 675px) {
+    transform: scale(1.5);
+  }
   @media (max-width: 768px) {
     transform: scale(0.9);
   }
