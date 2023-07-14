@@ -11,7 +11,6 @@ import Typed from "react-typed";
 import "bootstrap/dist/css/bootstrap.min.css";
 import IndividualIntervalsExample from "./slider.js";
 import CertificationsSlider from "./certificationsSlider.js";
-import VideoSlider from "./VideoSlider.js";
 import Footer from "./footer.js";
 import {
   FaReact,
@@ -177,7 +176,6 @@ export default function App() {
       </Wrapper>
       <IndividualIntervalsExample />
       <CertificationsSlider />
-      <VideoSlider />
       <div className="scrollhelper"></div>
       <Footer />
     </Router>
@@ -239,15 +237,15 @@ const Content = styled.div`
     font-weight: bold;
     font-size: 35px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
-
-    @media (max-width: 1024px) {
-      transform: scale(0.8);
-    }
 
     @media (max-width: 600px) {
       transform: scale(0.6);
+    }
+
+    @media (max-width: 1024px) {
+      transform: scale(0.8);
     }
   }
 `;
@@ -255,9 +253,10 @@ const Content = styled.div`
 const Menu = styled.ul`
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
   align-items: flex-start;
   margin-top: 25px;
+  width: 450px;
 
   background: rgba(255, 145, 246, 0.21);
   border-radius: 16px;
@@ -265,4 +264,8 @@ const Menu = styled.ul`
   backdrop-filter: blur(5.1px);
   -webkit-backdrop-filter: blur(5.1px);
   border: 3px solid rgba(255, 145, 246, 0.69);
+
+  @media (max-width: 600px) {
+    width: 300px;
+  }
 `;
