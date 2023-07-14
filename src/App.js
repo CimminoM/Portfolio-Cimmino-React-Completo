@@ -3,7 +3,6 @@ import styled from "styled-components";
 import React, { useEffect, useState, Suspense } from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import { BsLinkedin } from "react-icons/bs";
-import { DiCode } from "react-icons/di";
 import { BiMailSend } from "react-icons/bi";
 import { MdVideoCall } from "react-icons/md";
 import { isDesktop } from "react-device-detect";
@@ -141,13 +140,6 @@ export default function App() {
             </ul>
             <AvatarCimmino />
             <Link
-              to="https://www.linkedin.com/in/michele-cimmino-428289235/details/featured/"
-              className="Link"
-            >
-              {" "}
-              <DiCode size={35} className="Rotta" />
-            </Link>
-            <Link
               to="https://www.linkedin.com/in/michele-cimmino-428289235/"
               className="Link"
             >
@@ -247,7 +239,7 @@ const Content = styled.div`
     font-weight: bold;
     font-size: 35px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
 
     @media (max-width: 1024px) {
@@ -265,8 +257,7 @@ const Menu = styled.ul`
   flex-direction: column;
   gap: 20px;
   align-items: flex-start;
-  margin-top: 20px;
-  min-width: 150px;
+  margin-top: 25px;
 
   background: rgba(255, 145, 246, 0.21);
   border-radius: 16px;
