@@ -57,9 +57,6 @@ h2 {
 #Slider {
   box-shadow: 0px 39px 15px 5px rgba(0, 0, 0, 0.1);
 
-  @media (max-width: 620px) {
-    transform: scale(1.5);
-  }
   @media (max-width: 768px) {
     transform: scale(0.9);
   }
@@ -115,7 +112,7 @@ h2 {
   margin: 0;
 }
 .floating {
-  animation: float 4s ease-in-out infinite;
+  animation: float 3s ease-in-out infinite;
 }
 
 .Link {
