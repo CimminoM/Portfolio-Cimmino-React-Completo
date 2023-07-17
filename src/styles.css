@@ -1,15 +1,25 @@
 @import "animation.css";
 
 body {
+  height: 100%;
   margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background: linear-gradient(to bottom, #8400a2, #b203da, #a101c5, #8400a2);*/
+  background-image: linear-gradient(
+    to bottom,
+    #4c1a57,
+    #593376,
+    #624b96,
+    #6965b6,
+    #6b7fd7
+  );
 }
 
 html,
 body,
 #root {
   height: 100%;
-  background: linear-gradient(to bottom, #8400a2, #b203da, #a101c5, #8400a2);
-  background-size: contain;
 }
 
 .text-pop-up-top {
