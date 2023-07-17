@@ -10,7 +10,7 @@ function IndividualIntervalsExample() {
       <div id="Slider" data-aos="fade-up" data-aos-duration="2000">
         <h2>Projects</h2>
         <Carousel>
-          <Carousel.Item interval={1000}>
+          <Carousel.Item interval={1200}>
             <img
               className="d-block w-100"
               src={Artimg}
@@ -18,7 +18,7 @@ function IndividualIntervalsExample() {
               fluid
             />
           </Carousel.Item>
-          <Carousel.Item interval={800}>
+          <Carousel.Item interval={1200}>
             <img
               className="d-block w-100"
               src={Prestoimg}
@@ -26,7 +26,7 @@ function IndividualIntervalsExample() {
               fluid
             />
           </Carousel.Item>
-          <Carousel.Item interval={800}>
+          <Carousel.Item interval={1200}>
             <img
               className="d-block w-100"
               src={Flowimg}
@@ -34,7 +34,7 @@ function IndividualIntervalsExample() {
               fluid
             />
           </Carousel.Item>
-          <Carousel.Item interval={800}>
+          <Carousel.Item interval={1200}>
             <img
               className="d-block w-100"
               src={Travelimg}
@@ -42,7 +42,7 @@ function IndividualIntervalsExample() {
               fluid
             />
           </Carousel.Item>
-          <Carousel.Item interval={800}>
+          <Carousel.Item interval={1200}>
             <img
               className="d-block w-100"
               src={Gelateriaimg}

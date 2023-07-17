@@ -11,7 +11,7 @@ function CertificationsSlider() {
       <div id="Slider" data-aos="fade-up" data-aos-duration="2000">
         <h2>Certifications</h2>
         <Carousel>
-          <Carousel.Item interval={1000}>
+          <Carousel.Item interval={1200}>
             <img
               className="d-block w-100"
               src={certAulab}
@@ -19,7 +19,7 @@ function CertificationsSlider() {
               fluid
             />
           </Carousel.Item>
-          <Carousel.Item interval={800}>
+          <Carousel.Item interval={1200}>
             <img
               className="d-block w-100"
               src={certFreeCode}
@@ -27,7 +27,7 @@ function CertificationsSlider() {
               fluid
             />
           </Carousel.Item>
-          <Carousel.Item interval={800}>
+          <Carousel.Item interval={1200}>
             <img
               className="d-block w-100"
               src={certGoogle}
@@ -35,7 +35,7 @@ function CertificationsSlider() {
               fluid
             />
           </Carousel.Item>
-          <Carousel.Item interval={800}>
+          <Carousel.Item interval={1200}>
             <img
               className="d-block w-100"
               src={certReact}
@@ -43,7 +43,7 @@ function CertificationsSlider() {
               fluid
             />
           </Carousel.Item>
-          <Carousel.Item interval={800}>
+          <Carousel.Item interval={1200}>
             <img
               className="d-block w-100"
               src={certJava}
